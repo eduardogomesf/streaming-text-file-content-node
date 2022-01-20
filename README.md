@@ -5,11 +5,11 @@
 
 <br />
 
-Streaming file content is an example of how to use streams to read a text file, return its content using the http response and then writes the data on a file using streams.
+Streaming file content is an example of how to use readable streams and writable streams to manipulate text files.
 
  * It has a http server without framework
  * There is only a default endpoint provided by the server
- * The endpoint reads a text file using stream and then stream its result
+ * The endpoint reads a text file using stream and then stream the content
  * The streamed result is received and then written on another text file
 
  <br/>
