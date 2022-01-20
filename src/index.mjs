@@ -7,7 +7,7 @@ async function main() {
 
    const writableStream = createWriteStream('./src/files/target.txt');
 
-   writableStream.write(data, () => console.log('Writing data to file...'));
+   writableStream.write(data, () => console.log('Writing data on file...'));
 }
 
 main();
